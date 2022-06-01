@@ -1,0 +1,9 @@
+displayName = Moon Tweaks
+author = direwolf420
+version = 0.3.0.1
+side = Client
+hideCode = false
+hideResources = false
+includeSource = false
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, *.md
+includePDB = true
