@@ -33,9 +33,6 @@ namespace MoonTweaks
 		}
 
 		[Header("ModeExplanations")]
-		//TODO no Args?
-		//[HeaderArgs(ModeNone, ModeNightly, ModeNightlyExtra, ModeCustom,
-		//	Frost, Pumpkin, Smiley)]
 
 		[BackgroundColor(200, 50, 50)]
 		[DrawTicks]
