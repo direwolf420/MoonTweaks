@@ -2,6 +2,8 @@
 
 ![Icon](https://raw.githubusercontent.com/direwolf420/MoonTweaks/master/icon.png)
 
+Steam Workshop link: https://steamcommunity.com/sharedfiles/filedetails/?id=2576847291
+
 This clientside mod allows you to tweak the visible moon in various ways.
 
 You can affect the moon style in two ways:
@@ -17,9 +19,10 @@ Because this is clientside, it does not affect the moon state for other players/
 
 Credit to Harblesnargits for icon and idea.
 
-Changelog:
- v0.3: Added special moon styles to the selection and randomizer
+## Localization
+If you wish to contribute translations, visit the [tML wiki page](https://github.com/tModLoader/tModLoader/wiki/Localization) on that.
+This mod uses `.hjson` files in the `Localization` folder.
+Translate things that are in english and commented out (either via `//` or `/* */`, remove the comment markers after translating)
 
- v0.2.1: Renamed config "type" to "style"
-
- v0.2: Added custom moon phase setting
+List of localization contributors:
+* None!

@@ -11,8 +11,8 @@ Because this is clientside, it does not affect the moon state for other players/
 (Due to tml implementation of configs, in the main menu, moon style changes are only applied upon saving, then exiting the mod list. The special moons do not appear in the main menu either.)
 
 Credit to Harblesnargits for icon and idea.
-
-Localization:
-If you want to add support for different languages, you are welcome to contribute localizations here: https://github.com/direwolf420/MoonTweaks
+[hr][/hr]
+[b]Localization:[/b]
+If you want to add support for different languages, you are welcome to contribute localizations here: [b][url=https://github.com/direwolf420/MoonTweaks]GitHub[/url][/b]
 List of localization contributors:
 * None!

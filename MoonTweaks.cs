@@ -14,20 +14,20 @@ namespace MoonTweaks
 
 		public override void Load()
 		{
-			On.Terraria.Main.DrawSunAndMoon += Main_DrawSunAndMoon;
+			On_Main.DrawSunAndMoon += Main_DrawSunAndMoon;
 
-			On.Terraria.Main.UpdateTime_StartNight += Main_UpdateTime_StartNight;
+			On_Main.UpdateTime_StartNight += Main_UpdateTime_StartNight;
 		}
 
-		private void Main_UpdateTime_StartNight(On.Terraria.Main.orig_UpdateTime_StartNight orig, ref bool stopEvents)
+		private void Main_UpdateTime_StartNight(On_Main.orig_UpdateTime_StartNight orig, ref bool stopEvents)
 		{
 			//Handle nightly change if enabled
 
 			orig(ref stopEvents);
 
 			Config config = Config.Instance;
-			bool extra = config.MoonStyleMode == Config.ModeNightlyExtra;
-			if (config.MoonStyleMode == Config.ModeNightly || extra)
+			bool extra = config.MoonStyleModeNew == Config.MoonStyleModeType.NightlyExtra;
+			if (config.MoonStyleModeNew == Config.MoonStyleModeType.Nightly || extra)
 			{
 				//Main.NewText("current displayed moon: " + displayMoonType);
 
@@ -47,7 +47,7 @@ namespace MoonTweaks
 			}
 		}
 
-		private void Main_DrawSunAndMoon(On.Terraria.Main.orig_DrawSunAndMoon orig, Main self, Main.SceneArea sceneArea, Color moonColor, Color sunColor, float tempMushroomInfluence)
+		private void Main_DrawSunAndMoon(On_Main.orig_DrawSunAndMoon orig, Main self, Main.SceneArea sceneArea, Color moonColor, Color sunColor, float tempMushroomInfluence)
 		{
 			//Handle all replacements
 			bool origSnowMoon = Main.snowMoon;
@@ -93,8 +93,8 @@ namespace MoonTweaks
 					}
 				}
 
-				string moonPhase = config.MoonPhase;
-				if (moonPhase != Config.UnchangedPhase && Config.GetMoonPhaseIndexFromPhase(moonPhase, out int index))
+				Config.MoonPhaseType moonPhase = config.MoonPhaseNew;
+				if (moonPhase != Config.MoonPhaseType.Unchanged && Config.GetMoonPhaseIndexFromPhase(moonPhase, out int index))
 				{
 					Main.moonPhase = index;
 				}
