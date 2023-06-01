@@ -19,6 +19,11 @@ namespace MoonTweaks
 		[JsonExtensionData]
 		private IDictionary<string, JToken> _additionalData = new Dictionary<string, JToken>();
 
+		public const string ModeNone = "None";
+		public const string ModeNightly = "Nightly";
+		public const string ModeNightlyExtra = "Nightly (Extra)";
+		public const string ModeCustom = "Custom";
+
 		public enum MoonStyleModeType : byte
 		{
 			None = 0,
@@ -26,11 +31,6 @@ namespace MoonTweaks
 			NightlyExtra = 2,
 			Custom = 3,
 		}
-
-		public const string ModeNone = "None";
-		public const string ModeNightly = "Nightly";
-		public const string ModeNightlyExtra = "Nightly (Extra)";
-		public const string ModeCustom = "Custom";
 
 		[Header("ModeExplanations")]
 		//TODO no Args?
@@ -119,6 +119,7 @@ namespace MoonTweaks
 			//"MoonPhase" : "Waxing Crescent"
 			//from string to enum, which requires (!) a member rename aswell
 			JToken token;
+			//TODO for no reason I can think of, this doesn't work
 			if (_additionalData.TryGetValue("MoonStyleMode", out token))
 			{
 				var moonStyleMode = token.ToObject<string>();

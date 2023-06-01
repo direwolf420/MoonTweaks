@@ -5,8 +5,15 @@ Mods: {
 				DisplayName: Config
 
 				Headers: {
-					ModeExplanations: Mode Explanations Header
-					Other: Other Header
+					ModeExplanations:
+						'''
+						=== Mode Explanations ===
+						{$Configs.MoonStyleModeType.None.Label}: No changes to the moon style
+						{$Configs.MoonStyleModeType.Nightly.Label}: Moon changes appearance every night. Disclaimer: Does not work if time is directly set (via Journey Mode, server cmd, etc.)
+						{$Configs.MoonStyleModeType.NightlyExtra.Label}: Same as {$Configs.MoonStyleModeType.Nightly.Label}, but includes special moons ({$Configs.MoonStyleType.Frost.Label}, {$Configs.MoonStyleType.Pumpkin.Label}, {$Configs.MoonStyleType.Smiley.Label})
+						{$Configs.MoonStyleModeType.Custom.Label}: Use the below config setting to specify the moon style manually
+						'''
+					Other: Other
 				}
 
 				MoonStyleModeNew: {
