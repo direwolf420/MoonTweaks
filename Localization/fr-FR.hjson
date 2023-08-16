@@ -1,0 +1,74 @@
+Mods: {
+	MoonTweaks: {
+		Configs: {
+			Config: {
+				// DisplayName: Config
+
+				Headers: {
+					/* ModeExplanations:
+						'''
+						=== Mode Explanations ===
+						{$Configs.MoonStyleModeType.None.Label}: No changes to the moon style
+						{$Configs.MoonStyleModeType.Nightly.Label}: Moon changes appearance every night. Disclaimer: Does not work if time is directly set (via Journey Mode, server cmd, etc.)
+						{$Configs.MoonStyleModeType.NightlyExtra.Label}: Same as {$Configs.MoonStyleModeType.Nightly.Label}, but includes special moons ({$Configs.MoonStyleType.Frost.Label}, {$Configs.MoonStyleType.Pumpkin.Label}, {$Configs.MoonStyleType.Smiley.Label})
+						{$Configs.MoonStyleModeType.Custom.Label}: Use the below config setting to specify the moon style manually
+						''' */
+					// Other: Other
+				}
+
+				MoonStyleModeNew: {
+					// Label: Moon Style Mode
+					// Tooltip: Specify the way the moon style should change
+				}
+
+				MoonStyleNew: {
+					// Label: Custom Moon Style
+					// Tooltip: Directly sets the moon style. Only takes effect if Moon Style Mode is set to 'Custom'
+				}
+
+				MoonPhaseNew: {
+					// Label: Custom Moon Phase
+					// Tooltip: Directly sets the moon phase
+				}
+			}
+
+			MoonStyleModeType: {
+				// Tooltip: ""
+				// None.Label: None
+				// Nightly.Label: Nightly
+				// NightlyExtra.Label: Nightly (Extra)
+				// Custom.Label: Custom
+			}
+
+			MoonStyleType: {
+				// Tooltip: ""
+				// Unchanged.Label: Unchanged
+				// Normal.Label: Normal
+				// Yellow.Label: Yellow
+				// Ringed.Label: Ringed
+				// Mythril.Label: Mythril
+				// BrightBlue.Label: Bright Blue
+				// Green.Label: Green
+				// Pink.Label: Pink
+				// Orange.Label: Orange
+				// Purple.Label: Purple
+				// Frost.Label: Frost
+				// Pumpkin.Label: Pumpkin
+				// Smiley.Label: Smiley
+			}
+
+			MoonPhaseType: {
+				// Tooltip: ""
+				// Unchanged.Label: Unchanged
+				// FullMoon.Label: Full Moon
+				// WaningGibbous.Label: Waning Gibbous
+				// ThirdQuarter.Label: Third Quarter
+				// WaningCrescent.Label: Waning Crescent
+				// NewMoon.Label: New Moon
+				// WaxingCrescent.Label: Waxing Crescent
+				// FirstQuarter.Label: First Quarter
+				// WaxingGibbous.Label: Waxing Gibbous
+			}
+		}
+	}
+}

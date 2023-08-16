@@ -20,7 +20,7 @@ Because this is clientside, it does not affect the moon state for other players/
 Credit to Harblesnargits for icon and idea.
 
 ## Localization
-If you wish to contribute translations, visit the [tML wiki page](https://github.com/tModLoader/tModLoader/wiki/Localization) on that.
+If you wish to contribute translations, visit the [tML wiki page](https://github.com/tModLoader/tModLoader/wiki/Contributing-Localization) on that.
 This mod uses `.hjson` files in the `Localization` folder.
 Translate things that are in english and commented out (either via `//` or `/* */`, remove the comment markers after translating)
 
