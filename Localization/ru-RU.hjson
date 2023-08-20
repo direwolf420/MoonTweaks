@@ -2,72 +2,72 @@ Mods: {
 	MoonTweaks: {
 		Configs: {
 			Config: {
-				// DisplayName: Config
+				DisplayName: Настройки
 
 				Headers: {
-					/* ModeExplanations:
+					ModeExplanations:
 						'''
-						=== Mode Explanations ===
-						{$Configs.MoonStyleModeType.None.Label}: No changes to the moon style
-						{$Configs.MoonStyleModeType.Nightly.Label}: Moon changes appearance every night. Disclaimer: Does not work if time is directly set (via Journey Mode, server cmd, etc.)
-						{$Configs.MoonStyleModeType.NightlyExtra.Label}: Same as {$Configs.MoonStyleModeType.Nightly.Label}, but includes special moons ({$Configs.MoonStyleType.Frost.Label}, {$Configs.MoonStyleType.Pumpkin.Label}, {$Configs.MoonStyleType.Smiley.Label})
-						{$Configs.MoonStyleModeType.Custom.Label}: Use the below config setting to specify the moon style manually
-						''' */
-					// Other: Other
+						=== Объяснение режимов ===
+						• {$Configs.MoonStyleModeType.None.Label}: Стиль луны остаётся без изменений
+						• {$Configs.MoonStyleModeType.Nightly.Label}: Луна меняет свой вид каждую ночь. Внимание: Не работает, если менять время напрямую (например настройками сервера, в режиме 'Путешествие' и т.д.)
+						• {$Configs.MoonStyleModeType.NightlyExtra.Label}: То же самое, что и {$Configs.MoonStyleModeType.Nightly.Label}, но включает в себя особые луны ({$Configs.MoonStyleType.Frost.Label}, {$Configs.MoonStyleType.Pumpkin.Label}, {$Configs.MoonStyleType.Smiley.Label})
+						• {$Configs.MoonStyleModeType.Custom.Label}: Использует настройки, указанные ниже, чтобы вручную установить стиль луны
+						'''
+					Other: Прочее
 				}
 
 				MoonStyleModeNew: {
-					// Label: Moon Style Mode
-					// Tooltip: Specify the way the moon style should change
+					Label: Режим смены луны
+					Tooltip: Настройка смены стиля луны
 				}
 
 				MoonStyleNew: {
-					// Label: Custom Moon Style
-					// Tooltip: Directly sets the moon style. Only takes effect if Moon Style Mode is set to 'Custom'
+					Label: Пользовательский стиль луны
+					Tooltip: Напрямую определяет стиль луны. Применяется только если 'Режим смены луны' установлен на 'Пользовательский'
 				}
 
 				MoonPhaseNew: {
-					// Label: Custom Moon Phase
-					// Tooltip: Directly sets the moon phase
+					Label: Пользовательская фаза луны
+					Tooltip: Напрямую определяет фазу луны
 				}
 			}
 
 			MoonStyleModeType: {
-				// Tooltip: ""
-				// None.Label: None
-				// Nightly.Label: Nightly
-				// NightlyExtra.Label: Nightly (Extra)
-				// Custom.Label: Custom
+				Tooltip: ""
+				None.Label: Без смены
+				Nightly.Label: Ночной
+				NightlyExtra.Label: Ночной+
+				Custom.Label: Пользовательский
 			}
 
 			MoonStyleType: {
-				// Tooltip: ""
-				// Unchanged.Label: Unchanged
-				// Normal.Label: Normal
-				// Yellow.Label: Yellow
-				// Ringed.Label: Ringed
-				// Mythril.Label: Mythril
-				// BrightBlue.Label: Bright Blue
-				// Green.Label: Green
-				// Pink.Label: Pink
-				// Orange.Label: Orange
-				// Purple.Label: Purple
-				// Frost.Label: Frost
-				// Pumpkin.Label: Pumpkin
-				// Smiley.Label: Smiley
+				Tooltip: ""
+				Unchanged.Label: Без изменений
+				Normal.Label: Обычная
+				Yellow.Label: Жёлтая
+				Ringed.Label: Окольцованная
+				Mythril.Label: Мифриловая
+				BrightBlue.Label: Бледно-голубая
+				Green.Label: Зелёная
+				Pink.Label: Розовая
+				Orange.Label: Оранжевая
+				Purple.Label: Пурпурная
+				Frost.Label: Морозная
+				Pumpkin.Label: Тыквенная
+				Smiley.Label: Смайлик
 			}
 
 			MoonPhaseType: {
-				// Tooltip: ""
-				// Unchanged.Label: Unchanged
-				// FullMoon.Label: Full Moon
-				// WaningGibbous.Label: Waning Gibbous
-				// ThirdQuarter.Label: Third Quarter
-				// WaningCrescent.Label: Waning Crescent
-				// NewMoon.Label: New Moon
-				// WaxingCrescent.Label: Waxing Crescent
-				// FirstQuarter.Label: First Quarter
-				// WaxingGibbous.Label: Waxing Gibbous
+				Tooltip: ""
+				Unchanged.Label: Без изменений
+				FullMoon.Label: Полнолуние
+				WaningGibbous.Label: Убывающая луна
+				ThirdQuarter.Label: Третья четверть
+				WaningCrescent.Label: Убывающий месяц
+				NewMoon.Label: Новолуние
+				WaxingCrescent.Label: Растущий месяц
+				FirstQuarter.Label: Первая четверть
+				WaxingGibbous.Label: Растущая луна
 			}
 		}
 	}
