@@ -15,4 +15,4 @@ Credit to Harblesnargits for icon and idea.
 [b]Localization:[/b]
 If you want to add support for different languages, you are welcome to contribute localizations here: [b][url=https://github.com/direwolf420/MoonTweaks]GitHub[/url][/b]
 List of localization contributors:
-* None!
+* Russian: [b]GodHybrid[/b]

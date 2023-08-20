@@ -1,6 +1,6 @@
 displayName = Moon Tweaks
 author = direwolf420
-version = 0.4
+version = 0.4.0.1
 side = Client
 hideCode = false
 hideResources = false
