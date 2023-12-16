@@ -2,72 +2,72 @@ Mods: {
 	MoonTweaks: {
 		Configs: {
 			Config: {
-				// DisplayName: Config
+				DisplayName: Configurazione
 
 				Headers: {
-					/* ModeExplanations:
+					ModeExplanations:
 						'''
 						=== Mode Explanations ===
-						{$Configs.MoonStyleModeType.None.Label}: No changes to the moon style
-						{$Configs.MoonStyleModeType.Nightly.Label}: Moon changes appearance every night. Disclaimer: Does not work if time is directly set (via Journey Mode, server cmd, etc.)
-						{$Configs.MoonStyleModeType.NightlyExtra.Label}: Same as {$Configs.MoonStyleModeType.Nightly.Label}, but includes special moons ({$Configs.MoonStyleType.Frost.Label}, {$Configs.MoonStyleType.Pumpkin.Label}, {$Configs.MoonStyleType.Smiley.Label})
-						{$Configs.MoonStyleModeType.Custom.Label}: Use the below config setting to specify the moon style manually
-						''' */
-					// Other: Other
+						{$Configs.MoonStyleModeType.None.Label}: Nessuna modifica allo stile della luna
+						{$Configs.MoonStyleModeType.Nightly.Label}: La luna cambia aspetto ogni notte. Attenzione: Non funziona se il tempo viene modificato manualmente (tramite modalità Viaggio, cmd del server, ecc.)
+						{$Configs.MoonStyleModeType.NightlyExtra.Label}: Uguale a {$Configs.MoonStyleModeType.Nightly.Label}, ma include lune speciali ({$Configs.MoonStyleType.Frost.Label}, {$Configs.MoonStyleType.Pumpkin.Label}, {$Configs.MoonStyleType.Smiley.Label})
+						{$Configs.MoonStyleModeType.Custom.Label}: Utilizza la seguente configurazione per specificare manualmente lo stile della luna
+						'''
+					Other: Altro
 				}
 
 				MoonStyleModeNew: {
-					// Label: Moon Style Mode
-					// Tooltip: Specify the way the moon style should change
+					Label: Modalità stile luna
+					Tooltip: Specifica il modo in cui lo stile della luna dovrebbe cambiare
 				}
 
 				MoonStyleNew: {
-					// Label: Custom Moon Style
-					// Tooltip: Directly sets the moon style. Only takes effect if Moon Style Mode is set to 'Custom'
+					Label: Stile luna personalizzato
+					Tooltip: Imposta manualmente lo stile della luna. Ha effetto solo se la modalità Stile luna è impostata su 'Personalizzato'.
 				}
 
 				MoonPhaseNew: {
-					// Label: Custom Moon Phase
-					// Tooltip: Directly sets the moon phase
+					Label: Fase luna personalizzata
+					Tooltip: Cambia manualmente la fase lunare
 				}
 			}
 
 			MoonStyleModeType: {
-				// Tooltip: ""
-				// None.Label: None
-				// Nightly.Label: Nightly
-				// NightlyExtra.Label: Nightly (Extra)
-				// Custom.Label: Custom
+				Tooltip: ""
+				None.Label: Nessuna
+				Nightly.Label: Ogni notte
+				NightlyExtra.Label: Ogni notte (Extra)
+				Custom.Label: Personalizzato
 			}
 
 			MoonStyleType: {
-				// Tooltip: ""
-				// Unchanged.Label: Unchanged
-				// Normal.Label: Normal
-				// Yellow.Label: Yellow
-				// Ringed.Label: Ringed
-				// Mythril.Label: Mythril
-				// BrightBlue.Label: Bright Blue
-				// Green.Label: Green
-				// Pink.Label: Pink
-				// Orange.Label: Orange
-				// Purple.Label: Purple
-				// Frost.Label: Frost
-				// Pumpkin.Label: Pumpkin
-				// Smiley.Label: Smiley
+				Tooltip: ""
+				Unchanged.Label: Predefinita
+				Normal.Label: Normale
+				Yellow.Label: Gialla
+				Ringed.Label: Anellata
+				Mythril.Label: Mitrillio
+				BrightBlue.Label: Blu chiaro
+				Green.Label: Verde
+				Pink.Label: Rosa
+				Orange.Label: Arancione
+				Purple.Label: Viola
+				Frost.Label: Gelo
+				Pumpkin.Label: Zucca
+				Smiley.Label: Sorridente
 			}
 
 			MoonPhaseType: {
-				// Tooltip: ""
-				// Unchanged.Label: Unchanged
-				// FullMoon.Label: Full Moon
-				// WaningGibbous.Label: Waning Gibbous
-				// ThirdQuarter.Label: Third Quarter
-				// WaningCrescent.Label: Waning Crescent
-				// NewMoon.Label: New Moon
-				// WaxingCrescent.Label: Waxing Crescent
-				// FirstQuarter.Label: First Quarter
-				// WaxingGibbous.Label: Waxing Gibbous
+				Tooltip: ""
+				Unchanged.Label: Predefinita
+				FullMoon.Label: Luna piena
+				WaningGibbous.Label: Gibbosa calante
+				ThirdQuarter.Label: Ultimo quarto
+				WaningCrescent.Label: Calante
+				NewMoon.Label: Luna nuova
+				WaxingCrescent.Label: Crescente
+				FirstQuarter.Label: Primo quarto
+				WaxingGibbous.Label: Gibbosa crescente
 			}
 		}
 	}
