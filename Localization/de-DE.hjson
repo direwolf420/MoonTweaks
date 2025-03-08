@@ -2,72 +2,71 @@ Mods: {
 	MoonTweaks: {
 		Configs: {
 			Config: {
-				// DisplayName: Config
+				DisplayName: "Konfiguration"
 
 				Headers: {
-					/* ModeExplanations:
-						'''
-						=== Mode Explanations ===
-						{$Configs.MoonStyleModeType.None.Label}: No changes to the moon style
-						{$Configs.MoonStyleModeType.Nightly.Label}: Moon changes appearance every night. Disclaimer: Does not work if time is directly set (via Journey Mode, server cmd, etc.)
-						{$Configs.MoonStyleModeType.NightlyExtra.Label}: Same as {$Configs.MoonStyleModeType.Nightly.Label}, but includes special moons ({$Configs.MoonStyleType.Frost.Label}, {$Configs.MoonStyleType.Pumpkin.Label}, {$Configs.MoonStyleType.Smiley.Label})
-						{$Configs.MoonStyleModeType.Custom.Label}: Use the below config setting to specify the moon style manually
-						''' */
-					// Other: Other
+					ModeExplanations: """
+					=== Modus-Erklärungen ===
+					{$Configs.MoonStyleModeType.None.Label}: Keine Änderungen am Mondstil
+					{$Configs.MoonStyleModeType.Nightly.Label}: Der Mond ändert jede Nacht sein Aussehen. Hinweis: Funktioniert nicht, wenn die Zeit direkt gesetzt wird (über Journey-Modus, Serverbefehl usw.)
+					{$Configs.MoonStyleModeType.NightlyExtra.Label}: Gleich wie {$Configs.MoonStyleModeType.Nightly.Label}, aber mit speziellen Monden ({$Configs.MoonStyleType.Frost.Label}, {$Configs.MoonStyleType.Pumpkin.Label}, {$Configs.MoonStyleType.Smiley.Label})
+					{$Configs.MoonStyleModeType.Custom.Label}: Verwenden Sie die untenstehende Einstellung, um den Mondstil manuell festzulegen
+					"""
+					Other: "Andere"
 				}
 
 				MoonStyleModeNew: {
-					// Label: Moon Style Mode
-					// Tooltip: Specify the way the moon style should change
+					Label: "Mondstil-Modus"
+					Tooltip: "Legen Sie fest, wie sich der Mondstil ändern soll"
 				}
 
 				MoonStyleNew: {
-					// Label: Custom Moon Style
-					// Tooltip: Directly sets the moon style. Only takes effect if Moon Style Mode is set to 'Custom'
+					Label: "Benutzerdefinierter Mondstil"
+					Tooltip: "Setzt den Mondstil direkt. Hat nur Auswirkungen, wenn der Mondstil-Modus auf 'Benutzerdefiniert' gesetzt ist"
 				}
 
 				MoonPhaseNew: {
-					// Label: Custom Moon Phase
-					// Tooltip: Directly sets the moon phase
+					Label: "Benutzerdefinierte Mondphase"
+					Tooltip: "Setzt die Mondphase direkt"
 				}
 			}
 
 			MoonStyleModeType: {
-				// Tooltip: ""
-				// None.Label: None
-				// Nightly.Label: Nightly
-				// NightlyExtra.Label: Nightly (Extra)
-				// Custom.Label: Custom
+				Tooltip: ""
+				None: { Label: "Keiner" }
+				Nightly: { Label: "Nächtlich" }
+				NightlyExtra: { Label: "Nächtlich (Extra)" }
+				Custom: { Label: "Benutzerdefiniert" }
 			}
 
 			MoonStyleType: {
-				// Tooltip: ""
-				// Unchanged.Label: Unchanged
-				// Normal.Label: Normal
-				// Yellow.Label: Yellow
-				// Ringed.Label: Ringed
-				// Mythril.Label: Mythril
-				// BrightBlue.Label: Bright Blue
-				// Green.Label: Green
-				// Pink.Label: Pink
-				// Orange.Label: Orange
-				// Purple.Label: Purple
-				// Frost.Label: Frost
-				// Pumpkin.Label: Pumpkin
-				// Smiley.Label: Smiley
+				Tooltip: ""
+				Unchanged: { Label: "Unverändert" }
+				Normal: { Label: "Normal" }
+				Yellow: { Label: "Gelb" }
+				Ringed: { Label: "Mit Ring" }
+				Mythril: { Label: "Mythril" }
+				BrightBlue: { Label: "Hellblau" }
+				Green: { Label: "Grün" }
+				Pink: { Label: "Pink" }
+				Orange: { Label: "Orange" }
+				Purple: { Label: "Lila" }
+				Frost: { Label: "Frost" }
+				Pumpkin: { Label: "Kürbis" }
+				Smiley: { Label: "Smiley" }
 			}
 
 			MoonPhaseType: {
-				// Tooltip: ""
-				// Unchanged.Label: Unchanged
-				// FullMoon.Label: Full Moon
-				// WaningGibbous.Label: Waning Gibbous
-				// ThirdQuarter.Label: Third Quarter
-				// WaningCrescent.Label: Waning Crescent
-				// NewMoon.Label: New Moon
-				// WaxingCrescent.Label: Waxing Crescent
-				// FirstQuarter.Label: First Quarter
-				// WaxingGibbous.Label: Waxing Gibbous
+				Tooltip: ""
+				Unchanged: { Label: "Unverändert" }
+				FullMoon: { Label: "Vollmond" }
+				WaningGibbous: { Label: "Abnehmender Mond" }
+				ThirdQuarter: { Label: "Drittes Viertel" }
+				WaningCrescent: { Label: "Abnehmende Sichel" }
+				NewMoon: { Label: "Neumond" }
+				WaxingCrescent: { Label: "Zunehmende Sichel" }
+				FirstQuarter: { Label: "Erstes Viertel" }
+				WaxingGibbous: { Label: "Zunehmender Mond" }
 			}
 		}
 	}
