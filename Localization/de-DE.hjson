@@ -56,18 +56,18 @@ Mods: {
                 Smiley: { Label: Smiley }
             }
 
-            MoonPhaseType: {
-                Tooltip: 
-                Unchanged: { Label: Unverändert }
-                FullMoon: { Label: Vollmond }
-                WaningGibbous: { Label: Abnehmender Mond }
-                ThirdQuarter: { Label: Drittes Viertel }
-                WaningCrescent: { Label: Abnehmende Sichel }
-                NewMoon: { Label: Neumond }
-                WaxingCrescent: { Label: Zunehmende Sichel }
-                FirstQuarter: { Label: Erstes Viertel }
-                WaxingGibbous: { Label: Zunehmender Mond }
-            }
-        }
-    }
+			MoonPhaseType: {
+				Tooltip: ""
+				Unchanged.Label: Unverändert
+				FullMoon.Label: "{$GameUI.FullMoon}"
+				WaningGibbous.Label: "{$GameUI.WaningGibbous}"
+				ThirdQuarter.Label: "{$GameUI.ThirdQuarter}"
+				WaningCrescent.Label: "{$GameUI.WaningCrescent}"
+				NewMoon.Label: "{$GameUI.NewMoon}"
+				WaxingCrescent.Label: "{$GameUI.WaxingCrescent}"
+				FirstQuarter.Label: "{$GameUI.FirstQuarter}"
+				WaxingGibbous.Label: "{$GameUI.WaxingGibbous}"
+			}
+		}
+	}
 }
