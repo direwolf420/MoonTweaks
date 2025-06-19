@@ -16,3 +16,4 @@ Credit to Harblesnargits for icon and idea.
 If you want to add support for different languages, you are welcome to contribute localizations here: [b][url=https://github.com/direwolf420/MoonTweaks]GitHub[/url][/b]
 List of localization contributors:
 * Russian: [b]GodHybrid[/b]
+* Italian: [b]Sea Noodle[/b]

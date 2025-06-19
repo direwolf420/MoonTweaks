@@ -60,14 +60,14 @@ Mods: {
 			MoonPhaseType: {
 				Tooltip: ""
 				Unchanged.Label: Без изменений
-				FullMoon.Label: Полнолуние
-				WaningGibbous.Label: Убывающая луна
-				ThirdQuarter.Label: Третья четверть
-				WaningCrescent.Label: Убывающий месяц
-				NewMoon.Label: Новолуние
-				WaxingCrescent.Label: Растущий месяц
-				FirstQuarter.Label: Первая четверть
-				WaxingGibbous.Label: Растущая луна
+				FullMoon.Label: "{$GameUI.FullMoon}"
+				WaningGibbous.Label: "{$GameUI.WaningGibbous}"
+				ThirdQuarter.Label: "{$GameUI.ThirdQuarter}"
+				WaningCrescent.Label: "{$GameUI.WaningCrescent}"
+				NewMoon.Label: "{$GameUI.NewMoon}"
+				WaxingCrescent.Label: "{$GameUI.WaxingCrescent}"
+				FirstQuarter.Label: "{$GameUI.FirstQuarter}"
+				WaxingGibbous.Label: "{$GameUI.WaxingGibbous}"
 			}
 		}
 	}
