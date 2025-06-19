@@ -1,60 +1,61 @@
 Mods: {
-    MoonTweaks: {
-        Configs: {
-            Config: {
-                DisplayName: Konfiguration
+	MoonTweaks: {
+		Configs: {
+			Config: {
+				DisplayName: Konfiguration
 
-         	Headers: {
-                    ModeExplanations: """
-                    === Modus-Erklärungen ===
-                    {$Configs.MoonStyleModeType.None.Label}: Keine Änderungen am Mondstil
-                    {$Configs.MoonStyleModeType.Nightly.Label}: Der Mond ändert jede Nacht sein Aussehen. Hinweis: Funktioniert nicht, wenn die Zeit direkt gesetzt wird (über Journey-Modus, Serverbefehl usw.)
-                    {$Configs.MoonStyleModeType.NightlyExtra.Label}: Gleich wie {$Configs.MoonStyleModeType.Nightly.Label}, aber mit speziellen Monden ({$Configs.MoonStyleType.Frost.Label}, {$Configs.MoonStyleType.Pumpkin.Label}, {$Configs.MoonStyleType.Smiley.Label})
-                    {$Configs.MoonStyleModeType.Custom.Label}: Verwenden Sie die untenstehende Einstellung, um den Mondstil manuell festzulegen
-                    """
-                    Other: Andere
-                }
+				Headers: {
+					ModeExplanations:
+						'''
+						=== Modus-Erklärungen ===
+						{$Configs.MoonStyleModeType.None.Label}: Keine Änderungen am Mondstil
+						{$Configs.MoonStyleModeType.Nightly.Label}: Der Mond ändert jede Nacht sein Aussehen. Hinweis: Funktioniert nicht, wenn die Zeit direkt gesetzt wird (über Journey-Modus, Serverbefehl usw.)
+						{$Configs.MoonStyleModeType.NightlyExtra.Label}: Gleich wie {$Configs.MoonStyleModeType.Nightly.Label}, aber mit speziellen Monden ({$Configs.MoonStyleType.Frost.Label}, {$Configs.MoonStyleType.Pumpkin.Label}, {$Configs.MoonStyleType.Smiley.Label})
+						{$Configs.MoonStyleModeType.Custom.Label}: Verwenden Sie die untenstehende Einstellung, um den Mondstil manuell festzulegen
+						'''
+					Other: Andere
+				}
 
-                MoonStyleModeNew: {
-                    Label: Mondstil-Modus
-                    Tooltip: Legen Sie fest, wie sich der Mondstil ändern soll
-                }
+				MoonStyleModeNew: {
+					Label: Mondstil-Modus
+					Tooltip: Legen Sie fest, wie sich der Mondstil ändern soll
+				}
 
-                MoonStyleNew: {
-                    Label: Benutzerdefinierter Mondstil
-                    Tooltip: Setzt den Mondstil direkt. Hat nur Auswirkungen, wenn der Mondstil-Modus auf 'Benutzerdefiniert' gesetzt ist
-                }
+				MoonStyleNew: {
+					Label: Benutzerdefinierter Mondstil
+					Tooltip: Setzt den Mondstil direkt. Hat nur Auswirkungen, wenn der Mondstil-Modus auf 'Benutzerdefiniert' gesetzt ist
+				}
 
-                MoonPhaseNew: {
-                    Label: Benutzerdefinierte Mondphase
-                    Tooltip: Setzt die Mondphase direkt
-                }
-            }
+				MoonPhaseNew: {
+					Label: Benutzerdefinierte Mondphase
+					Tooltip: Setzt die Mondphase direkt
+				}
+			}
 
-            MoonStyleModeType: {
-                Tooltip: 
-                None: { Label: Keiner }
-                Nightly: { Label: Nächtlich }
-                NightlyExtra: { Label: Nächtlich (Extra) }
-                Custom: { Label: Benutzerdefiniert }
-            }
+			MoonStyleModeType: {
+				Tooltip: ""
+				None.Label: Keiner
+				Nightly.Label: Nächtlich
+				NightlyExtra.Label: Nächtlich (Extra)
+				Custom.Label: Benutzerdefiniert
+			}
 
-            MoonStyleType: {
-                Tooltip: 
-                Unchanged: { Label: Unverändert }
-                Normal: { Label: Normal }
-                Yellow: { Label: Gelb }
-                Ringed: { Label: Mit Ring }
-                Mythril: { Label: Mythril }
-                BrightBlue: { Label: Hellblau }
-                Green: { Label: Grün }
-                Pink: { Label: Pink }
-                Orange: { Label: Orange }
-                Purple: { Label: Lila }
-                Frost: { Label: Frost }
-                Pumpkin: { Label: Kürbis }
-                Smiley: { Label: Smiley }
-            }
+			MoonStyleType: {
+				Tooltip: ""
+				Unchanged.Label: Unverändert
+				Normal.Label: Normal
+				Yellow.Label: Gelb
+				Ringed.Label: Mit Ring
+				Mythril.Label: Mythril
+				BrightBlue.Label: Hellblau
+				Green.Label: Grün
+				Pink.Label: Pink
+				Orange.Label: Orange
+				Purple.Label: Lila
+				Frost.Label: Frost
+				Pumpkin.Label: Kürbis
+				Smiley.Label: Smiley
+			}
 
 			MoonPhaseType: {
 				Tooltip: ""
